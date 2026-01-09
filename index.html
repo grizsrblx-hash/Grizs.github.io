@@ -1,0 +1,65 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Grizs — Roblox Restaurant</title>
+  <link rel="stylesheet" href="/styles.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="container">
+      <h1 id="site-title">Grizs</h1>
+      <p class="tagline">An Italian grill on ROBLOX — join us for food & fun!</p>
+      <nav class="actions">
+        <a id="join-button" class="btn primary" href="#" target="_blank">Join on ROBLOX</a>
+        <a class="btn" href="#menu">Menu</a>
+        <a class="btn" href="#gallery">Gallery</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container">
+    <section id="about" class="card">
+      <h2>About Grizs</h2>
+      <p id="about-text">Welcome to Grizs — a cozy Italian grill on ROBLOX. We serve pizza, pasta, and smiles. This simple site is editable; add images to the <code>/images</code> folder and update text in <code>index.html</code>.</p>
+    </section>
+
+    <section id="menu" class="card">
+      <h2>Menu</h2>
+      <ul class="menu-list">
+        <li><strong>Margherita Pizza</strong> — 50 Robux</li>
+        <li><strong>Pasta Carbonara</strong> — 40 Robux</li>
+        <li><strong>Gelato</strong> — 20 Robux</li>
+      </ul>
+      <p class="note">Edit this section in <code>index.html</code> to change items or prices.</p>
+    </section>
+
+    <section id="gallery" class="card">
+      <h2>Gallery</h2>
+      <p>Add images to the <code>/images</code> folder. Thumbnails will show below.</p>
+      <div id="gallery-grid" class="gallery-grid">
+        <!-- Images from /images will be inserted here -->
+      </div>
+    </section>
+
+    <section id="contact" class="card">
+      <h2>Contact & Reservations</h2>
+      <p>If you want a simple contact form without a backend, replace <code>#</code> in the form action with a Formspree URL or your own endpoint.</p>
+      <form id="contact-form" action="#" method="POST">
+        <label>Name<br><input name="name" placeholder="Your name"></label>
+        <label>Message<br><textarea name="message" rows="4" placeholder="Tell us something"></textarea></label>
+        <button class="btn" type="submit">Send</button>
+      </form>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <small>Made for Grizs — edit freely. Repo: <a href="https://github.com/grizsrblx-hash/Grizs.github.io">grizsrblx-hash/Grizs.github.io</a></small>
+    </div>
+  </footer>
+
+  <script src="/script.js"></script>
+</body>
+</html>
